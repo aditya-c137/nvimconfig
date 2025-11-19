@@ -19,3 +19,5 @@ vim.cmd("hi LineNr guibg=NONE")
 vim.cmd("hi SignColumn guibg=NONE")
 vim.opt.isfname:append("@-@")
 
+-- Enable LSP's
+vim.lsp.enable('pylsp')

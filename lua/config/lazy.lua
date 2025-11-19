@@ -27,5 +27,13 @@ require("lazy").setup({
     { "rebelot/kanagawa.nvim", name = "kanagawa", priority = 1000 },
     { import = "config.plugins" },
     { "nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate" },
+    { "hrsh7th/cmp-nvim-lsp" },
+    { "hrsh7th/nvim-cmp" },
+    { "L3MON4D3/LuaSnip" },
+    { "saadparwaiz1/cmp_luasnip" },
+    { "hrsh7th/cmp-cmdline" },
+    { "hrsh7th/cmp-path" },
+    { "hrsh7th/cmp-buffer" },
+    -- { "" }, --Can copy paste these to add more
   },
 })
