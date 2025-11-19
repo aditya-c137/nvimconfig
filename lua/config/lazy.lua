@@ -34,6 +34,8 @@ require("lazy").setup({
     { "hrsh7th/cmp-cmdline" },
     { "hrsh7th/cmp-path" },
     { "hrsh7th/cmp-buffer" },
-    -- { "" }, --Can copy paste these to add more
+    { "mason-org/mason.nvim" },
+    --Can yank paste these to add more
+    -- { "" }, 
   },
 })
