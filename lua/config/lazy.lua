@@ -37,5 +37,6 @@ require("lazy").setup({
     { "mason-org/mason.nvim" },
     --Can yank paste these to add more
     -- { "" }, 
+    { "elkowar/yuck.vim" }, 
   },
 })
